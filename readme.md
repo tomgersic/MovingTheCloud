@@ -6,6 +6,8 @@ I was asked to put together a temporary (it'll probably be around for a few mont
 
 Moving the Cloud uses Node.js to pull tweets containing some keywords like "Cloud", "Salesforce", "Social", "Mobile", or "Model Metrics" from the Twitter Streaming API and stream them to clients using websockets. They move across the screen right to left, sort of like a cloud -- GET IT? (nudge nudge wink wink)? There's a screenshot down below. Here's some details:
 
+Note: there's an [accompanying blog post for this here](http://www.modelmetrics.com/tomgersic/moving-the-cloud-html5-and-css3-on-node-js/).
+
 ##Setup
 
 You'll need Node.js installed to run this. The server is set to run on port 8888 unless you have an environment variable set to put it somewhere else. On many systems, you'll have to run it as root if you want to start it on port 80. Starting the server is pretty easy. This will get it running:
